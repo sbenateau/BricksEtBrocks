@@ -1,0 +1,74 @@
+---
+title: "Galaxy-E"
+output: beamer_presentation
+---
+
+## Présentation de l'équipe
+
+- Alan Amossé
+- Simon Bénateau
+- Yvan Le Bras
+- Benjamin Yguel
+
+## Lien avec le SGBD
+
+Figure avec Galaxy-E et Galaxy-E-Bricks
+<!-- permet de poursuivre sans perdre les gens -->
+
+## Objectifs et intéret de l'approche
+
+- Reproductibilité
+- Accessibilité
+- Collaboration
+- Partage
+- Outil très général
+
+## Analyse de données accessible à davantage de publics
+
+- Galaxy-E
+    - Pour les chercheurs et ...
+- Galaxy-E-Bricks
+    - Pour le grand public et l'enseignement
+
+## Outils développés
+
+- Dockerisation
+    - Integration d'application dans Galaxy-E
+    - Wallace (modélisation de prédiction de répartition)
+    - 
+- Vigie-Chiro
+    - Detection et classification de chiroptères à partir d'enregistrement audio
+- Regional GAM
+    - Etude de la phénologie de pappillons
+- SIG
+- Importation de données externes
+    - Données naturalistes (gbif, bison, inat, ebird, antweb, ala, idigbio, obis, ecoengine, vertnet)
+    - Données climatiques (Bioclim)
+
+## Intégration des scripts
+
+Intégration des outils dans une interface graphique plus simple à utiliser pour les publics peu familier avec les lignes de commande.
+
+## Création de tutoriels
+
+- RegionalGAM et SDM
+
+## Perspectives
+
+- Mise en place de collaborations avec des équipes de recherche.
+
+## Démonstration
+
+
+- Connection
+- Création d'un historique
+- Importation des données
+- Filtrer les données
+- Datamash
+- Représentation graphique
+
+- Sinon regionalGAM ?
+- Avec un historique chargé.
+
+- Présentation de Wallace rapide ?
+
