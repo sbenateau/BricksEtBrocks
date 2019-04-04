@@ -1,0 +1,20 @@
+---
+title: "Démo Galaxy-E"
+output: beamer_presentation
+---
+
+## Plan de démonstration
+
+- Connection
+    - Arrivée sur un historique déjà présent pour montrer que la session de travail permet de reprendre directement où l'on s'arrête
+- présentation d'un outils qui prend tu temps ? donc déjà chargé dans mon historique
+- Création d'un nouvel historique
+    - Importation de données (VNE par exemple)
+    - Filtrer les données
+    - Datamash
+    - Représentation graphique (RAWgraph)
+
+- Sinon regionalGAM
+- Avec un historique chargé.
+
+- Présentation de Wallace rapide ?
