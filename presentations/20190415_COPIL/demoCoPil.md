@@ -27,15 +27,15 @@ L'objectif de la démonstration est de présenter les aspects les plus important
 3. Création d'un nouvel historique
 4. Présentation de la notion d'outil et de l'interface outils
     1. Présentation (rapide) des sections d'outils et de la barre de recherche
-    1. Importation de données type Vigie-Nature 
+    2. Importation de données type Vigie-Nature 
         - Préciser le lien futur avec le SGBD
-    2. Importation de données externes (GBIF etc... et Worldclim si réparé)
+    3. Importation de données externes (GBIF etc... et Worldclim si réparé)
         - Si question, préciser les conditions d'importation de certaines colonnes en fonction des bases sélectionnées
-    2. Filtrer les données (manipulation de données)
-    3. Aggrégation des données
-    4. Représentation graphique (visualisation)
-6. Présentation des outils de collaboration
-    1. Préciser que tous les outils sont partageables et les niveaux de partage (par utilisateur et lien donc relativement privé ou partage public)
+    4. Filtrer les données (manipulation de données)
+    5. Aggrégation des données
+    6. Représentation graphique (visualisation)
+5. Présentation des outils de collaboration
+    1. Préciser que tous les outils sont partageables et les niveaux de partage (par utilisateur -privé-, lien -restreint-ou partage public)
     2. Commencer un nouvel historique -sbenateau-
     3. Partager l'historique (par un lien)
         - insister sur la notion de non duplication des données
@@ -46,7 +46,7 @@ L'objectif de la démonstration est de présenter les aspects les plus important
     8. Ouverture sur les autres types de partage disponibles
         - github, wiki, stackoverflow
         - forum ou chat dédié
-5. Présentation d'un outil qui demande du temps de calcul donc déjà chargé dans un autre historique
+6. Présentation d'un outil qui demande du temps de calcul donc déjà chargé dans un autre historique
     1. RegionalGAM avec analyse des phénologies de papillon (modélisation)
     2. Sortie d'un graphique pour rendre plus clairs les résultats
 7. Présentation de Wallace rapide ? Selon le temps probablement un peu long
