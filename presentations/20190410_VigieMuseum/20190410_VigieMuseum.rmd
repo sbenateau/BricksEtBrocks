@@ -1,35 +1,46 @@
 ---
 title: "Galaxy-Bricks"
 subtitle: "Une plateforme d'analyse de données collaborative"
-output: beamer_presentation
+output: 
+  beamer_presentation:
+    fig_caption: false
 ---
 
-# Itinéraire historique des données issues des sciences participatives
-
-**Récolte des données** > Gestion des données > Analyse des données > Résultats/Sorties > Communication
+# Méthode historique pour l'analyse des données issues des sciences participatives
+<!---
+**Récolte des données** > Gestion des données > Analyse des données > Résultats/Sorties > Communication--->
 <!-- Les données sont récupérées sur le terrain puis saisies dans des bases de données. Elles sont analyses par des membres des laboratoires de recherche qui vont communiquer les résultats dans des revues scientifiques, via des restitutions --> 
 
 ![Itineraire1](figures/Itineraire1.png)
 
-# Proposition d'un nouvel itinéraire
+# Proposition d'une nouvelle méthode pour l'analyse des données issues des sciences participatives
 
 ![Itineraire2](figures/Itineraire2.png)
 
 # Objectifs
 
-- Proposer de nouvelles voies pour la participation
-- Maintenir la participation existante
+- Proposer de nouvelles voies pour la participation citoyenne
 - Donner aux participants les moyens de répondre aux questions qu'ils se posent
+- Maintenir la participation existante
 
-# Nécessité de concevoir des outils adaptés aux publics
+
+# Nécessité de concevoir des outils adaptés aux publics non spécialistes
 
 ![codeR](figures/code_R.png)
 ![outils galaxy](figures/outil_galaxy.png)
 
-# Besoin de formation
+# Nécessité de formation
 
-![galaxy_training_logo.png]("figures/galaxy_training_logo.png")
+![galaxy_training_logo](figures/galaxy_training_logo.png)
 
+
+# Des outils principalement concus pour la collaboration et le partage
+
+- Possibilité de partager
+    - Les outils d'analyse
+    - Les jeux de données
+    - Les résultats
+    
 
 # Perspectives
 
