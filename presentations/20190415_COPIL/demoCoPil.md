@@ -27,11 +27,16 @@ L'objectif de la démonstration est de présenter les aspects les plus important
 3. Création d'un nouvel historique
 4. Présentation de la notion d'outil et de l'interface outils
     1. Présentation (rapide) des sections d'outils et de la barre de recherche
-    2. Importation de données type Vigie-Nature 
+    2. Importation de données type Vigie-Nature-Ecole
+        - XLS sheet to tabular
+        - Données oiseaux 
         - Préciser le lien futur avec le SGBD
     3. Importation de données externes (GBIF etc... et Worldclim si réparé)
-        - Si question, préciser les conditions d'importation de certaines colonnes en fonction des bases sélectionnées
+        - Cyanistes caeruleus        
+- Si question, préciser les conditions d'importation de certaines colonnes en fonction des bases sélectionnées
     4. Filtrer les données (manipulation de données)
+        - Sélectionner les lignes de ce jeu de données
+	- Cyanistes caeruleus
     5. Aggrégation des données
     6. Représentation graphique (visualisation)
 5. Présentation des outils de collaboration
