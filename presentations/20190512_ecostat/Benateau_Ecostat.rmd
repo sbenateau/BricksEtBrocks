@@ -11,6 +11,11 @@ date: "14 mai 2019"
 output:
   beamer_presentation:
     theme: metropolis
+=======
+title: "Galaxy-Ecology : Une plateforme d'analyse de données accessible"
+author: "Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras"
+output:
+  beamer_presentation:
     fig_caption: false
 ---
 
