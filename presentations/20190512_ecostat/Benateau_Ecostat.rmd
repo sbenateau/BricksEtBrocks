@@ -1,8 +1,16 @@
 ---
-title: "Galaxy-Ecology : Une plateforme d'analyse de données accessible"
-author: "Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras"
+title: "Galaxy-Ecology"
+subtitle: "Une plateforme d'analyse de données accessible"
+author: |
+    | Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras
+    |
+    | Muséum National d'Histoire Naturelle
+    | Centre d'Ecologie et des Sciences de la COnservation
+    | PATRImoine NATurel
+date: "14 mai 2019"
 output:
   beamer_presentation:
+    theme: metropolis
     fig_caption: false
 ---
 
@@ -39,7 +47,6 @@ Nous vous présenterons les derniers développement des outils de la plateforme 
 # Possibilité de partage
 
 - Jeux de données
--
 
 # Perspective
 
