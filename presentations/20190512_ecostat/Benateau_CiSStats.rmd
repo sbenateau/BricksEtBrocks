@@ -1,0 +1,14 @@
+---
+title: "Galaxy-Bricks : une plateforme d’analyse de données collaborative"
+author: "Simon Bénateau, Sébastien Turpin, Yvan Le Bras"
+output:
+  beamer_presentation:
+    fig_caption: false
+---
+
+# Galaxy-Bricks : une plateforme d’analyse de données collaborative
+Simon Bénateau, Sébastien Turpin, Yvan Le Bras
+
+Abstract :
+Les sciences participatives ont pour objectif historique le recueil de données. La plateforme "Galaxy-Bricks" contribue à l'élargissement du champ d'action de celles-ci en offrant la possibilité aux participants de prendre part à l'analyse de données. La possibilité de comprendre comment les chercheurs analysent les données et de participer à ces analyses devrait susciter de nouveaux modes de collaboration entre la recherche et les citoyens.
+Les outils de partage de résultats, d'outils, de workflow et de rapport que propose "Galaxy-E" couplés au cadre de formation proposés par le réseau "Galaxy training material" permettent d'atteindre ces objectifs.
