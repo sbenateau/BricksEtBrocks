@@ -11,6 +11,8 @@ date: "14 mai 2019"
 output:
   beamer_presentation:
     theme: metropolis
+    fig_caption: false
+classoption: "aspectratio=149"
 ---
 
 # Galaxy-Ecology : Une plateforme d'analyse de données accessible
@@ -21,23 +23,47 @@ La plateforme galaxy-E permet de développer des outils avec une interface graph
 Nous vous présenterons les derniers développement des outils de la plateforme et sur les projets.  
 
 # Vigie nature  
-![observatoires](figures/observatoires_vigienature.jpg)
+![observatoires](figures/observatoires_vigienature_aml.jpg)
 
 # Organisation du réseau d'acteurs
-![résaux](figures/Vigie-Nature-Network.jpg)
+![réseaux](figures/Vigie-Nature-Network.jpg)
 
-# La place de l'analyse de données et de la production d'indicateurs
-![résaux](figures/Vigie-Nature-Network.jpg)
+# Destination des plateformes d'analyse de données
+![réseaux](figures/Vigie-Nature-Network.jpg)
 
 # Demandes de la communautés et freins à l'implémentation
 
 - Associations et structures partenaires
-- Indicateurs régionnaux
+  - Large communauté
+  - Compétences hétérogène en analyse et gestion de données
+- Indicateurs régionaux
     - Communication auprès des participants, des médias et des instances politiques
 - Accès aux données
 - Installation et utilisation des outils
     - Dépendances (e.g. versions des packages)
     - Lignes de commande (utilisation de R)
+
+# Démarche FAIR
+
+- Findable
+- Accessible
+- Interoperable
+- Reusable
+
+# Partage
+
+- Données
+    - Outils dédiés
+    - Bibliotèques de données
+
+# Partage
+
+- Outils
+    - Test
+- Workflow
+  - Association d'outils
+- Résultats
+- Rapports
 
 # Simplicité d'utilisation
 
