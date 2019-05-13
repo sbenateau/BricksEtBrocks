@@ -8,6 +8,8 @@ author: |
     | Centre d'Ecologie et des Sciences de la COnservation
     | PATRImoine NATurel
 date: "14 mai 2019"
+header-includes:
+- \titlegraphic{\raggedleft \includegraphics[width=3.5cm]{figures/logo.png}}
 output:
   beamer_presentation:
     theme: metropolis
@@ -29,52 +31,72 @@ Nous vous présenterons les derniers développement des outils de la plateforme 
 ![réseaux](figures/Vigie-Nature-Network.jpg)
 
 # Destination des plateformes d'analyse de données
-![réseaux](figures/Vigie-Nature-Network.jpg)
+![réseaux](figures/Vigie-Nature-Network2.png)
 
 # Demandes de la communautés et freins à l'implémentation
 
 - Associations et structures partenaires
-  - Large communauté
-  - Compétences hétérogène en analyse et gestion de données
-- Indicateurs régionaux
-    - Communication auprès des participants, des médias et des instances politiques
-- Accès aux données
-- Installation et utilisation des outils
-    - Dépendances (e.g. versions des packages)
-    - Lignes de commande (utilisation de R)
+   - Large communauté
+   - Compétences hétérogènes en analyse et gestion de données
+- Besoins principaux
+   - Indicateurs régionaux
+   - Communication auprès des participants, des médias et des instances politiques
+   - Accès aux données
+- Freins principaux
+   - Installation et utilisation des outils
+      - Dépendances (e.g. versions des packages)
+      - Lignes de commande (utilisation de R)
+      - Formation à l'utilisation des méthodes
 
-# Démarche FAIR
+# Accès aux données
 
-- Findable
-- Accessible
-- Interoperable
-- Reusable
+- Outils dédiés
+    - Importation des données des observatoires
+    - Importation depuis des bases de données naturalistes
+        - gbif, bison, inat, ebird, antweb, ala, idigbio, obis, ecoengine, vertnet
+    - Importation de données écologiques
+        - Worldclim
+	- Davantage de données bientôt 
+- Bibliothèques de données
+    - Crées par les utilisateurs
+- Possibilité de faire un pont entre les disciplines
 
-# Partage
+# Outils
+
+![CodeToTool](figures/codeToTool.png)
+
+# Outils
+
+- Calcul d'indicateurs
+  - RegionalGAM
+  - Tendances STOC points d'écoute
+- Traitement de données
+  - Détection et identification de chauves-souris à partir de d'enregistrements.
+
+# Outils
+
+- Intégration d'outils shiny
+  - Wallace
+- Autres outils interactifs
+  - Visualisation de données  
+
+# Possibilité de partage
 
 - Données
-    - Outils dédiés
-    - Bibliotèques de données
-
-# Partage
-
 - Outils
-    - Test
 - Workflow
   - Association d'outils
 - Résultats
 - Rapports
 
-# Simplicité d'utilisation
+# Tutoriels 
 
-- Interface web sans ligne de commande
+- Réalisé pour RegionalGAM
 
-# Possibilité de partage
+# Perspectives
 
-- Jeux de données
-
-# Perspective
-
-FAIR
-
-- Tutoriels
+- Gain de temps pour la production des indicateurs
+- Créer des ponts entre les développeurs et les utilisateurs des méthodes
+- Améliorer le partage des données et des méthodes d'analyse
+- Gérer certains aspects des soucis de reproductibilité
+- Proposer une plateforme de formation
