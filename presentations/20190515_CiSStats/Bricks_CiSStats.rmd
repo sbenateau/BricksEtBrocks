@@ -1,0 +1,71 @@
+---
+title: "Galaxy-Bricks"
+subtitle: "Vers une plateforme d'analyse de données
+collaborative"
+author: |
+    | Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras
+    |
+    | Muséum National d'Histoire Naturelle
+    | Centre d'Ecologie et des Sciences de la COnservation
+    | PATRImoine NATurel
+date: "14 mai 2019"
+header-includes:
+- \titlegraphic{\raggedleft \includegraphics[width=3cm]{figures/logo.png}}
+output:
+  beamer_presentation:
+    theme: metropolis
+    fig_caption: false
+classoption: "aspectratio=129"
+---
+
+# Vigie nature  
+![observatoires](figures/observatoires_vigienature_aml.jpg)
+
+# Organisation du réseau d'acteurs
+![réseaux](figures/Vigie-Nature-Network.jpg)
+
+# Destination des plateformes d'analyse de données
+![réseaux](figures/Vigie-Nature-Network-fr.png)
+
+# Objectifs identifiés - "grand public"
+
+- Proposer de nouvelles possibilités pour la participation citoyenne
+- Donner un accès aux données et permettre leur exploitation
+- Donner aux participants les moyens de répondre aux questions qu'ils se posent sur les données
+
+# Objectifs identifiés - Vigie Nature Ecole
+
+- Proposer un nouvel outil pour l'apprentissage de la démarche scientifque
+- Formation à l'analyse de données
+- Possibilité de proposer une approche interdiciplinaire
+
+# Réflexion sur l'ergonomie
+
+![CodeToTool](figures/codeToTool.png)
+
+# Nécessité de formation
+- Formation à l’outil via des tutoriels
+- Formation à l’analyse de données écologiques contextualisée
+- Création de supports interactifs
+
+# Possibilité de partage
+
+## Au sein de Galaxy
+- Données
+- Outils
+- Workflow
+- Résultats
+- Rapports
+
+## Plateforme d'échange
+
+- Forum
+- Chat
+
+# Perspectives
+
+- Analyse collaborative
+
+# Merci
+
+![Team](figures/team.png.png)
