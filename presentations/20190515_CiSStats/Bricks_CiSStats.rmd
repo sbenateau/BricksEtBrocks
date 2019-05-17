@@ -3,29 +3,32 @@ title: "Galaxy-Bricks"
 subtitle: "Vers une plateforme d'analyse de données
 collaborative"
 author: |
-    | Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras
+    | Simon Bénateau$^1$, Sébastien Turpin$^1$, Yvan Le Bras$^2$  
     |
     | Muséum National d'Histoire Naturelle
-    | Centre d'Ecologie et des Sciences de la COnservation
-    | PATRImoine NATurel
-date: "14 mai 2019"
+    | 1. UMR Centre d'Ecologie et des Sciences de la COnservation
+    | 2. UMS PATRImoine NATurel
+date: "15 mai 2019"
 header-includes:
 - \titlegraphic{\raggedleft \includegraphics[width=3cm]{figures/logo.png}}
 output:
   beamer_presentation:
-    theme: metropolis
+    theme: BricksTemplate
     fig_caption: false
 classoption: "aspectratio=129"
 ---
 
 # Vigie nature  
 ![observatoires](figures/observatoires_vigienature_aml.jpg)
+- bulle -> clarifier -> regarder slide Karine
 
 # Organisation du réseau d'acteurs
 ![réseaux](figures/Vigie-Nature-Network.jpg)
+- clair sur les boites
 
 # Destination des plateformes d'analyse de données
 ![réseaux](figures/Vigie-Nature-Network-fr.png)
+- Bien mais à voir pour clarifier
 
 # Objectifs identifiés - "grand public"
 
