@@ -6,8 +6,8 @@ author: |
     | Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras
     |
     | Muséum National d'Histoire Naturelle
-    | UMR Centre d'Ecologie et des Sciences de la COnservation
-    | UMS PATRImoine NATurel
+    | Centre d'Ecologie et des Sciences de la COnservation
+    | PATRImoine NATurel
 date: "14 mai 2019"
 header-includes:
 - \titlegraphic{\raggedleft \includegraphics[width=3cm]{figures/logo.png}}
@@ -17,34 +17,25 @@ output:
     fig_caption: false
 classoption: "aspectratio=129"
 ---
-Ajouter Logo GAPARS / H2020
+
 # Vigie nature  
 ![observatoires](figures/observatoires_vigienature_aml.jpg)
-- bulle -> clarifier -> regarder slide Karine
 
 # Organisation du réseau d'acteurs
 ![réseaux](figures/Vigie-Nature-Network.jpg)
-- clair sur les boites
 
 # Destination des plateformes d'analyse de données
 ![réseaux](figures/Vigie-Nature-Network2.png)
-- Bien mais à voir pour clarifier
 
-# Demandes des la communauté et freins à l'implémentation
-- reformulation du titre
+# Demandes de la communauté et freins à l'implémentation
 
 - Besoins principaux
     - Accès aux données
-    - Accès outils d'analyse
-        - Manipulation de fichiers
-        - Analyses statistique
-        - Visualisation)
-    - Indicateurs régionaux (pour les gestionnaires)
+    - Indicateurs régionaux
     - Communication auprès des participants, des médias et des instances politiques
 - Freins principaux
-    - Formation au méthodes
-    - Formation à l'utilisation des outils
-    - Installation et utilisation des outils en autonomie
+    - Formation à l'utilisation des méthodes
+    - Installation et utilisation des outils
         - Dépendances (e.g. versions des packages)
         - Lignes de commande (utilisation de R)
 
@@ -55,44 +46,31 @@ Ajouter Logo GAPARS / H2020
     - Importation des données des observatoires
     - Importation depuis des bases de données naturalistes
         - gbif, bison, inat, ebird, antweb, ala, idigbio, obis, ecoengine, vertnet
-    - Importation de données environmentales, covariables
+    - Importation de données écologiques
         - Worldclim
 	      - Davantage de données bientôt
 - Bibliothèques de données
-- Import direct des données
-    - URL
-    - Fichiers locaux
 
 # Outils
 
 ![CodeToTool](figures/codeToTool.png)
-- Flécher input code vers outil voir dev galaxy
-- ligne de commande R pour l'exemple
 
 # Outils
 
-- Manipulation de fichiers
-    - tri / filtre / joiture de table
+- Calcul d'indicateurs
+    - RegionalGAM (Suivi de l'abondance de papillon)
+    - Tendances STOC-EPS (Suivi temporel des oiseaux communs)
+- Traitement de données
+    - Détection et identification de chauves-souris à partir de d'enregistrements
 - SIG
     - GDAL
-        - traitement de fichiers raster / vecteur
-
-- Analyse de données
-    - Détection et identification de chauves-souris à partir d'enregistrements
-    - Calcul d'indicateurs
-       - RegionalGAM (Suivi de l'abondance de papillon)
-       - Tendances STOC-EPS (Suivi temporel des oiseaux communs)
-
 
 # Outils
-- Visualisation interactive
-    - Librarie D3.JS (Histogramme, nuage de points...)
-    - openlayers (Visualisation SIG)
-- Autres outils interactifs
-    - Jupyter notebook
-    - Rstudio
-- Intégration d'outils Shiny
+
+- Intégration d'outils shiny
     - Wallace (Modélisation de distribution d'espèces)
+- Autres outils interactifs
+    - Visualisation de données  
 
 # Possibilité de partage
 
