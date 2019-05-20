@@ -27,9 +27,7 @@ classoption: "aspectratio=129"
 # Destination des plateformes d'analyse de données
 ![réseaux](figures/Vigie-Nature-Network2.png)
 
-
 # Axes de développement et freins à l'implémentation
-
 
 - Besoins principaux
     - Accès aux données
@@ -67,13 +65,11 @@ classoption: "aspectratio=129"
     - GDAL
 
         - traitement de fichiers raster / vecteur
-
 - Analyse de données
     - Détection et identification de chauves-souris à partir d'enregistrements
     - Calcul d'indicateurs
        - RegionalGAM (Suivi de l'abondance de papillon)
        - Tendances STOC-EPS (Suivi temporel des oiseaux communs - Point d'écoute)
-
 
 # Outils
 
