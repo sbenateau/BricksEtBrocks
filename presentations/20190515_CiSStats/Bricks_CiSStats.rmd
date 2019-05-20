@@ -9,12 +9,12 @@ author: |
     | 1. UMR Centre d'Ecologie et des Sciences de la COnservation
     | 2. UMS PATRImoine NATurel
 date: "15 mai 2019"
-header-includes:
-- \titlegraphic{\raggedleft \includegraphics[width=3cm]{figures/logo.png}}
 output:
   beamer_presentation:
     theme: BricksTemplate
     fig_caption: false
+    includes:
+      in_header: header.tex
 classoption: "aspectratio=129"
 ---
 
