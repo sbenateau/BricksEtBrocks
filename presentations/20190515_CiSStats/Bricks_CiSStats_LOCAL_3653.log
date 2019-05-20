@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.26)  20 MAY 2019 14:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.26)  20 MAY 2019 11:18
->>>>>>> testBranch
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,7 +1248,6 @@ Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
-<<<<<<< HEAD
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1641,20 +1636,4 @@ PDF statistics:
  76 compressed objects within 1 object stream
  23 named destinations out of 1000 (max. 500000)
  10313 words of extra memory for PDF output out of 12000 (max. 10000000)
-=======
-) (/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-! Undefined control sequence.
-l.35 \if@titlepage
-                   
-Here is how much of TeX's memory you used:
- 21303 strings out of 492982
- 413740 string characters out of 6134896
- 522389 words of memory out of 5000000
- 24443 multiletter control sequences out of 15000+600000
- 5018 words of font info for 17 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 82i,0n,95p,1846b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> testBranch
 
-!  ==> Fatal error occurred, no output PDF file produced!

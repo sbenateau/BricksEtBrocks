@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.26)  20 MAY 2019 14:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.26)  20 MAY 2019 11:18
->>>>>>> testBranch
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.26)  17 MAY 2019 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,7 +949,7 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
+)) (./beamerthemeBricksTemplate.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetr
 opolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
@@ -1070,7 +1066,7 @@ Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
 Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
 aTeX to use the Fira fonts on input line 95.
 
-)) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
@@ -1252,7 +1248,6 @@ Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
-<<<<<<< HEAD
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1491,7 +1486,7 @@ File: figures/logo.png Graphic file (type png)
 Package pdftex.def Info: figures/logo.png  used on input line 85.
 (pdftex.def)             Requested size: 85.35353pt x 49.28322pt.
 
-Overfull \vbox (61.18321pt too high) detected at line 85
+Overfull \vbox (71.18321pt too high) detected at line 85
  []
 
 LaTeX Font Info:    Try loading font information for OT1+lmss on input line 85.
@@ -1624,37 +1619,21 @@ Package rerunfilecheck Info: File `Bricks_CiSStats.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22860 strings out of 492982
- 446110 string characters out of 6134896
- 531494 words of memory out of 5000000
- 25848 multiletter control sequences out of 15000+600000
+ 22866 strings out of 492982
+ 446295 string characters out of 6134896
+ 532516 words of memory out of 5000000
+ 25851 multiletter control sequences out of 15000+600000
  59778 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,83p,1820b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,13n,95p,1846b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Bricks_CiSStats.pdf (11 pages, 5874162 bytes).
+Output written on Bricks_CiSStats.pdf (11 pages, 5874161 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
  23 named destinations out of 1000 (max. 500000)
  10313 words of extra memory for PDF output out of 12000 (max. 10000000)
-=======
-) (/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-! Undefined control sequence.
-l.35 \if@titlepage
-                   
-Here is how much of TeX's memory you used:
- 21303 strings out of 492982
- 413740 string characters out of 6134896
- 522389 words of memory out of 5000000
- 24443 multiletter control sequences out of 15000+600000
- 5018 words of font info for 17 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 82i,0n,95p,1846b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> testBranch
 
-!  ==> Fatal error occurred, no output PDF file produced!

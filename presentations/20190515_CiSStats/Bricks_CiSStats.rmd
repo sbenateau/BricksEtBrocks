@@ -15,6 +15,8 @@ output:
   beamer_presentation:
     theme: metropolis
     fig_caption: false
+    includes:
+      in_header: header.tex
 classoption: "aspectratio=129"
 ---
 
