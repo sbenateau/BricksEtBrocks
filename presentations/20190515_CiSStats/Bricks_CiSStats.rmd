@@ -10,10 +10,10 @@ author: |
     | 2. UMS PATRImoine NATurel
 date: "15 mai 2019"
 header-includes:
-- \titlegraphic{\raggedleft \includegraphics[width=3cm]{figures/logo.png}}
+- \titlegraphic{\vspace{-10pt} \raggedleft \vfill \includegraphics[width=3cm]{figures/logo.png}}
 output:
   beamer_presentation:
-    theme: BricksTemplate
+    theme: metropolis
     fig_caption: false
 classoption: "aspectratio=129"
 ---
