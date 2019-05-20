@@ -10,7 +10,7 @@ author: |
     | PATRImoine NATurel
 date: "14 mai 2019"
 header-includes:
-- \titlegraphic{\raggedleft \includegraphics[width=3cm]{figures/logo.png}}
+- \titlegraphic{\vfill \raggedleft \includegraphics[width=3cm]{figures/logo.png}}
 output:
   beamer_presentation:
     theme: metropolis
@@ -27,7 +27,9 @@ classoption: "aspectratio=129"
 # Destination des plateformes d'analyse de données
 ![réseaux](figures/Vigie-Nature-Network2.png)
 
-# Demandes de la communauté et freins à l'implémentation
+
+# Axes de développement et freins à l'implémentation
+
 
 - Besoins principaux
     - Accès aux données
@@ -38,7 +40,6 @@ classoption: "aspectratio=129"
     - Installation et utilisation des outils
         - Dépendances (e.g. versions des packages)
         - Lignes de commande (utilisation de R)
-
 
 # Accès aux données
 
@@ -64,6 +65,15 @@ classoption: "aspectratio=129"
     - Détection et identification de chauves-souris à partir de d'enregistrements
 - SIG
     - GDAL
+
+        - traitement de fichiers raster / vecteur
+
+- Analyse de données
+    - Détection et identification de chauves-souris à partir d'enregistrements
+    - Calcul d'indicateurs
+       - RegionalGAM (Suivi de l'abondance de papillon)
+       - Tendances STOC-EPS (Suivi temporel des oiseaux communs - Point d'écoute)
+
 
 # Outils
 
