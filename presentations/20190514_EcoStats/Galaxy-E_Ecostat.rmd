@@ -3,11 +3,11 @@ title: "Galaxy-Ecology"
 subtitle: "Une plateforme d'analyse de données
 accessible"
 author: |
-    | Simon Bénateau, Benjamin Yguel, Alan Amossé, Yvan Le Bras
+    | Simon Bénateau$^1$, Benjamin Yguel$^1$, Alan Amossé$^1$, Yvan Le Bras$^2$
     |
     | Muséum National d'Histoire Naturelle
-    | Centre d'Ecologie et des Sciences de la COnservation
-    | PATRImoine NATurel
+    | 1. UMR Centre d'Ecologie et des Sciences de la COnservation
+    | 2. UMS PATRImoine NATurel
 date: "14 mai 2019"
 header-includes:
 - \titlegraphic{\vfill \raggedleft \includegraphics[width=3cm]{figures/logo.png}}
