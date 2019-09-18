@@ -17,12 +17,11 @@ classoption: "aspectratio=129"
 ---
 
 # Vigie nature  
-![observatoires](figures/observatoires_vigienature_aml.png)
+![](figures/observatoires_vigienature_aml.png)
 - bulle -> clarifier -> regarder slide Karine
 
 # Organisation du réseau d'acteurs
-![réseaux](figures/NetworkVigieNature.png)
-test
+![](figures/NetworkVigieNature.png)
 
 # Destination des plateformes d'analyse de données
 ![](figures/NetworkVigieNatureGalaxy.png)
@@ -41,7 +40,7 @@ test
 
 # Réflexion sur l'ergonomie
 
-![CodeToTool](figures/codeToTool.png)
+![](figures/codeToTool.png)
 
 # Nécessité de formation
 - Formation à l’outil via des tutoriels
