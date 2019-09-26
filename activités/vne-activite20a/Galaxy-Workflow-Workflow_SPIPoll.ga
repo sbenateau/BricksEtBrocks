@@ -1,0 +1,429 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "Workflow SPIPoll", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "content_id": null, 
+            "errors": null, 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "Donnees brutes"
+                }
+            ], 
+            "label": "Donnees brutes", 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 128, 
+                "top": 285.6499938964844
+            }, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"Donnees brutes\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "uuid": "e055b425-d573-4e66-a78a-1e4ced260758", 
+            "workflow_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "content_id": "datamash_ops", 
+            "errors": null, 
+            "id": 1, 
+            "input_connections": {
+                "in_file": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Datamash", 
+            "outputs": [
+                {
+                    "name": "out_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 289.4499969482422, 
+                "top": 286.45001220703125
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "datamash_ops", 
+            "tool_state": "{\"operations\": \"[{\\\"__index__\\\": 0, \\\"op_column\\\": \\\"1\\\", \\\"op_name\\\": \\\"count\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null, \"header_in\": \"\\\"true\\\"\", \"in_file\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"need_sort\": \"\\\"true\\\"\", \"print_full_line\": \"\\\"false\\\"\", \"header_out\": \"\\\"true\\\"\", \"grouping\": \"\\\"2,3,4,6\\\"\"}", 
+            "tool_version": "1.1.0", 
+            "type": "tool", 
+            "uuid": "f9bb44fa-0f30-4936-9b4c-ced72feaa051", 
+            "workflow_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "content_id": "datamash_ops", 
+            "errors": null, 
+            "id": 2, 
+            "input_connections": {
+                "in_file": {
+                    "id": 1, 
+                    "output_name": "out_file"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Datamash", 
+            "outputs": [
+                {
+                    "name": "out_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 592.9666748046875, 
+                "top": 226.11666870117188
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "datamash_ops", 
+            "tool_state": "{\"operations\": \"[{\\\"__index__\\\": 0, \\\"op_column\\\": \\\"1\\\", \\\"op_name\\\": \\\"count\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null, \"header_in\": \"\\\"true\\\"\", \"in_file\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"need_sort\": \"\\\"true\\\"\", \"print_full_line\": \"\\\"false\\\"\", \"header_out\": \"\\\"true\\\"\", \"grouping\": \"\\\"2,3,4\\\"\"}", 
+            "tool_version": "1.1.0", 
+            "type": "tool", 
+            "uuid": "d506bd0d-85da-4d1a-9bac-381c04f50aa7", 
+            "workflow_outputs": []
+        }, 
+        "3": {
+            "annotation": "", 
+            "content_id": "datamash_ops", 
+            "errors": null, 
+            "id": 3, 
+            "input_connections": {
+                "in_file": {
+                    "id": 1, 
+                    "output_name": "out_file"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Datamash", 
+            "outputs": [
+                {
+                    "name": "out_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 595.3666687011719, 
+                "top": 335.7166748046875
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "datamash_ops", 
+            "tool_state": "{\"operations\": \"[{\\\"__index__\\\": 0, \\\"op_column\\\": \\\"1\\\", \\\"op_name\\\": \\\"count\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null, \"header_in\": \"\\\"true\\\"\", \"in_file\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"need_sort\": \"\\\"true\\\"\", \"print_full_line\": \"\\\"false\\\"\", \"header_out\": \"\\\"true\\\"\", \"grouping\": \"\\\"3\\\"\"}", 
+            "tool_version": "1.1.0", 
+            "type": "tool", 
+            "uuid": "5d3a497b-562b-45ac-81e0-7afce74cfd37", 
+            "workflow_outputs": []
+        }, 
+        "4": {
+            "annotation": "", 
+            "content_id": "datamash_ops", 
+            "errors": null, 
+            "id": 4, 
+            "input_connections": {
+                "in_file": {
+                    "id": 1, 
+                    "output_name": "out_file"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Datamash", 
+            "outputs": [
+                {
+                    "name": "out_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 591.3666687011719, 
+                "top": 446.91668701171875
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "datamash_ops", 
+            "tool_state": "{\"operations\": \"[{\\\"__index__\\\": 0, \\\"op_column\\\": \\\"1\\\", \\\"op_name\\\": \\\"count\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null, \"header_in\": \"\\\"true\\\"\", \"in_file\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"need_sort\": \"\\\"true\\\"\", \"print_full_line\": \"\\\"false\\\"\", \"header_out\": \"\\\"true\\\"\", \"grouping\": \"\\\"1,2\\\"\"}", 
+            "tool_version": "1.1.0", 
+            "type": "tool", 
+            "uuid": "1ecf068a-5266-4b89-a9ff-4579a57dff95", 
+            "workflow_outputs": []
+        }, 
+        "5": {
+            "annotation": "", 
+            "content_id": "join-data.table", 
+            "errors": null, 
+            "id": 5, 
+            "input_connections": {
+                "input1": {
+                    "id": 2, 
+                    "output_name": "out_file"
+                }, 
+                "input2": {
+                    "id": 3, 
+                    "output_name": "out_file"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Join two datasets", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 893.7666931152344, 
+                "top": 226.91668701171875
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "join-data.table", 
+            "tool_state": "{\"input2\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__page__\": null, \"input1\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"key2\": \"\\\"1\\\"\", \"key1\": \"\\\"2\\\"\", \"keepHeaders\": \"\\\"true\\\"\", \"joinType\": \"\\\"INNER\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"keepCol1\": \"[\\\"1\\\", \\\"2\\\", \\\"3\\\", \\\"4\\\"]\", \"__rerun_remap_job_id__\": null, \"keepCol2\": \"[\\\"2\\\"]\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "uuid": "04f94001-889f-4821-b241-ff9e92165ab1", 
+            "workflow_outputs": []
+        }, 
+        "6": {
+            "annotation": "", 
+            "content_id": "datamash_ops", 
+            "errors": null, 
+            "id": 6, 
+            "input_connections": {
+                "in_file": {
+                    "id": 4, 
+                    "output_name": "out_file"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Datamash", 
+            "outputs": [
+                {
+                    "name": "out_file", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 831.8000183105469, 
+                "top": 487.433349609375
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "datamash_ops", 
+            "tool_state": "{\"operations\": \"[{\\\"__index__\\\": 0, \\\"op_column\\\": \\\"1\\\", \\\"op_name\\\": \\\"count\\\"}]\", \"__page__\": null, \"ignore_case\": \"\\\"false\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"__rerun_remap_job_id__\": null, \"header_in\": \"\\\"true\\\"\", \"in_file\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"need_sort\": \"\\\"true\\\"\", \"print_full_line\": \"\\\"false\\\"\", \"header_out\": \"\\\"true\\\"\", \"grouping\": \"\\\"2\\\"\"}", 
+            "tool_version": "1.1.0", 
+            "type": "tool", 
+            "uuid": "9b337bf7-96d8-4ef5-bee6-eb9cbf0f6c8f", 
+            "workflow_outputs": []
+        }, 
+        "7": {
+            "annotation": "", 
+            "content_id": "columns-simple-operation", 
+            "errors": null, 
+            "id": 7, 
+            "input_connections": {
+                "input": {
+                    "id": 5, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "column operations", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1079.5333557128906, 
+                "top": 273.6499938964844
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "columns-simple-operation", 
+            "tool_state": "{\"__page__\": null, \"inputFormula\": \"\\\"c4 / c5\\\"\", \"__rerun_remap_job_id__\": null, \"inputName\": \"\\\"Ratio insectes par habitat\\\"\", \"add\": \"\\\"true\\\"\", \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "uuid": "ca66a828-1fda-4578-bc1d-1a2b24264d02", 
+            "workflow_outputs": []
+        }, 
+        "8": {
+            "annotation": "", 
+            "content_id": "columns-simple-operation", 
+            "errors": null, 
+            "id": 8, 
+            "input_connections": {
+                "input": {
+                    "id": 6, 
+                    "output_name": "out_file"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "column operations", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1082.7333679199219, 
+                "top": 527.566650390625
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "columns-simple-operation", 
+            "tool_state": "{\"__page__\": null, \"inputFormula\": \"\\\"sum(c2)\\\"\", \"__rerun_remap_job_id__\": null, \"inputName\": \"\\\"Nombre total de collections\\\"\", \"add\": \"\\\"true\\\"\", \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "uuid": "792758a2-f175-4b61-82cc-0285f9adf1d5", 
+            "workflow_outputs": []
+        }, 
+        "9": {
+            "annotation": "", 
+            "content_id": "columns-simple-operation", 
+            "errors": null, 
+            "id": 9, 
+            "input_connections": {
+                "input": {
+                    "id": 8, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "column operations", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1260.9333190917969, 
+                "top": 551.7166748046875
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "columns-simple-operation", 
+            "tool_state": "{\"__page__\": null, \"inputFormula\": \"\\\"c2 / c3\\\"\", \"__rerun_remap_job_id__\": null, \"inputName\": \"\\\"Ratio collections habitat\\\"\", \"add\": \"\\\"true\\\"\", \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "uuid": "e972e5da-09be-40ec-ba47-49010b071161", 
+            "workflow_outputs": []
+        }, 
+        "10": {
+            "annotation": "", 
+            "content_id": "join-data.table", 
+            "errors": null, 
+            "id": 10, 
+            "input_connections": {
+                "input1": {
+                    "id": 7, 
+                    "output_name": "output"
+                }, 
+                "input2": {
+                    "id": 9, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Join two datasets", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1380.1667175292969, 
+                "top": 300.0333251953125
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "join-data.table", 
+            "tool_state": "{\"input2\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"__page__\": null, \"input1\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"key2\": \"\\\"1\\\"\", \"key1\": \"\\\"1\\\"\", \"keepHeaders\": \"\\\"true\\\"\", \"joinType\": \"\\\"INNER\\\"\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"keepCol1\": \"[\\\"1\\\", \\\"2\\\", \\\"3\\\", \\\"6\\\"]\", \"__rerun_remap_job_id__\": null, \"keepCol2\": \"[\\\"4\\\"]\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "uuid": "1008b20b-6684-4819-8493-9fbaad7c62b1", 
+            "workflow_outputs": []
+        }, 
+        "11": {
+            "annotation": "", 
+            "content_id": "columns-simple-operation", 
+            "errors": null, 
+            "id": 11, 
+            "input_connections": {
+                "input": {
+                    "id": 10, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "column operations", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "tabular"
+                }
+            ], 
+            "position": {
+                "left": 1556.1667175292969, 
+                "top": 347.566650390625
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "columns-simple-operation", 
+            "tool_state": "{\"__page__\": null, \"inputFormula\": \"\\\"c4 - c5\\\"\", \"__rerun_remap_job_id__\": null, \"inputName\": \"\\\"Affinite insectes habitats\\\"\", \"add\": \"\\\"true\\\"\", \"input\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\"}", 
+            "tool_version": "1.0.0", 
+            "type": "tool", 
+            "uuid": "d8bb362f-caf5-4ff3-bf94-d66222931187", 
+            "workflow_outputs": []
+        }, 
+        "12": {
+            "annotation": "", 
+            "content_id": "ggplot_all", 
+            "errors": null, 
+            "id": 12, 
+            "input_connections": {
+                "input1": {
+                    "id": 11, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "label": null, 
+            "name": "Plot w ggplot2", 
+            "outputs": [
+                {
+                    "name": "output1", 
+                    "type": "png"
+                }
+            ], 
+            "position": {
+                "left": 1732.1667175292969, 
+                "top": 371.566650390625
+            }, 
+            "post_job_actions": {}, 
+            "tool_id": "ggplot_all", 
+            "tool_state": "{\"__page__\": null, \"input1\": \"{\\\"__class__\\\": \\\"ConnectedValue\\\"}\", \"mainOps\": \"{\\\"groupOpt\\\": {\\\"groupLayer\\\": [{\\\"__index__\\\": 0, \\\"groupColID\\\": \\\"3\\\", \\\"grouplayerType\\\": \\\"color\\\", \\\"scaletype\\\": \\\"false\\\"}, {\\\"__index__\\\": 1, \\\"groupColID\\\": \\\"3\\\", \\\"grouplayerType\\\": \\\"facetting\\\", \\\"scaletype\\\": \\\"false\\\"}]}, \\\"primaryLayer\\\": [{\\\"__index__\\\": 0, \\\"advanced\\\": {\\\"alpha\\\": \\\"1.0\\\", \\\"pointcolor\\\": \\\"black\\\", \\\"size\\\": \\\"1.0\\\"}, \\\"primaryLayer\\\": {\\\"__current_case__\\\": 4, \\\"layerType\\\": \\\"violin\\\"}}, {\\\"__index__\\\": 1, \\\"advanced\\\": {\\\"alpha\\\": \\\"1.0\\\", \\\"pointcolor\\\": \\\"black\\\", \\\"size\\\": \\\"1.0\\\"}, \\\"primaryLayer\\\": {\\\"__current_case__\\\": 5, \\\"layerType\\\": \\\"jitter\\\"}}], \\\"xplot\\\": \\\"1\\\", \\\"yplot\\\": \\\"6\\\"}\", \"__rerun_remap_job_id__\": null, \"secondary\": \"{\\\"normalize\\\": \\\"false\\\", \\\"secondaryLayer\\\": [], \\\"yplot\\\": \\\"1\\\"}\", \"chromInfo\": \"\\\"/tmp/tmpolfgjffq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\\\"\", \"out\": \"{\\\"additional_output_format\\\": \\\"none\\\", \\\"dpi_output_dim\\\": \\\"300.0\\\", \\\"height_output_dim\\\": \\\"7.0\\\", \\\"unit_output_dim\\\": \\\"in\\\", \\\"width_output_dim\\\": \\\"7.0\\\"}\"}", 
+            "tool_version": "0.1.0", 
+            "type": "tool", 
+            "uuid": "6b7fb17f-8df4-4ce4-ab03-019650fb9517", 
+            "workflow_outputs": []
+        }
+    }, 
+    "tags": [], 
+    "uuid": "7662c381-5f96-4bee-9213-2fddc2566953", 
+    "version": 1
+}
